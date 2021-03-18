@@ -1,0 +1,31 @@
+import Swift
+var tuple = (1, "2", 2.4, true)
+var (one, two, tri, chetire) = tuple
+// print (two,chetire)
+print (tuple.3)
+
+3) Кто готов идти дальше создать 5 разных Tuples с разными типами данных.
+Один из них должен содержать все месяца года на русском.Второй на английском
+
+4) Распечатайте Tuples 3 мя разными способами
+
+5)Создайте пустой Tuples
+
+let tup1 = (pervii:"Jun", vtoroi: "Fev", tretii: "Mar", shet: "Apr", piat:"May", six: "Iun", seven: "Iul", nine: "Aug", dev:"Sep", ten: "Oct", odin: "Nov", dven: "Dec")
+// let tup2 = (1:"Январь", 2: "Февраль", 3: "Март", 4: "Апрель", 5:"Май", 6: "Июнь", 7: "Июль", 8: "Август", 9:"Сентябрь", 10: "Октябрь", 11: "Ноябрь", 12: "Декабрь")
+let a = "jun"
+let b = "feb"
+print (tup1.pervii)
+print (tup1)
+print (a, b)
+
+
+var tup3 = (one:(),two:())
+var tup4 = (one:(1),two:())
+print (tup4.two)
+tup4.two = "2"
+print (tup4.two)
+
+// var tup = [String, Int, Bool]()
+// tup = ("1", 2, false)
+// print (tup)
